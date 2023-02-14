@@ -101,6 +101,7 @@ button {
 
 button:hover {
     background-color: #1A4032;
+    cursor: pointer;
 }
 
 #cart-icon {
@@ -113,3 +114,35 @@ span {
     font-family: 'Montserrat', sans-serif;
     line-height: 17.07px;
 }
+
+@media only screen and (min-width: 600px) {
+    article {
+        width: 600px;
+        height: 450px;
+        display: flex;
+        margin: 175px 420px;
+    }
+
+    article img {
+        width: 300px;
+        height: 450px;
+    }
+
+    #info-container {
+        padding: 0 8px;
+        width: 237px;
+    }
+
+    #sub-title {
+        margin-top: 32px;
+    }
+
+    #price-container {
+        margin-bottom: 30px;
+    }
+
+    button {
+        width: 236px;
+        margin-bottom: 30px;
+    }
+  }
