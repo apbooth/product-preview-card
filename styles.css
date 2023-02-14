@@ -8,6 +8,8 @@ body {
 body p {
     font-size: 14px;
     color: #6C7289;
+    font-family: 'Montserrat', sans-serif;
+    ;
 }
 
 #sub-title {
@@ -15,6 +17,8 @@ body p {
     text-transform: uppercase;
     line-height: 14.63px;
     letter-spacing: 5px;
+    margin: 0;
+    margin-bottom: 12px;
 }
 
 article {
@@ -30,42 +34,42 @@ article {
 }
 
 article img {
-    max-width: 343px;
-    max-height: 240px;
-    overflow: hidden;
+    width: 343px;
+    height: 240px;
 }
 
 #info-container {
-    padding: 0 24px;
+    margin: 0 24px;
 }
 
 #info-container h1 {
-    margin: 0 0 16px;
+    margin: 0 0 16px 0;
     font-size: 2rem;
     color: #1C232B;
     line-height: 2rem;
     font-weight: 700;
+    font-family: 'Fraunces', serif;
 }
 
-#info-container p {
+#description {
     line-height: 23px;
     font-weight: 500;
+    margin-top: 0;
     margin-bottom: 24px;
 }
 
 #price-container  {
-    margin: 0 0 20px;
+    margin: 0 0 20px 0;
     width: 194px;
+    height: 32px;
     display: flex;
-    align-items: flex-end;
-}
-
-#price-container p {
-    margin-top: 0;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 #current-price {
     color: #3D8168;
+    font-family: 'Fraunces', serif;
     font-size: 2rem;
     font-weight: 700;
     line-height: 2rem;
@@ -88,6 +92,14 @@ button {
     height: 48px;
     font-size: 14px;
     line-height: 26px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #1A4032;
 }
 
 #cart-icon {
@@ -96,11 +108,7 @@ button {
     margin-right: 11.6px;
 }
 
-
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
-}
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+span {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 17.07px;
 }
