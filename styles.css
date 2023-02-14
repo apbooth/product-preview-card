@@ -4,12 +4,10 @@ body {
     background-color: hsl(30, 38%, 92%);
 }
 
-
 body p {
     font-size: 14px;
     color: #6C7289;
     font-family: 'Montserrat', sans-serif;
-    ;
 }
 
 #sub-title {
