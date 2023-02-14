@@ -27,6 +27,7 @@ article {
     height: 611px;
     margin: 24px auto;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 #image-container {
