@@ -2,6 +2,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: hsl(30, 38%, 92%);
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 body p {
@@ -118,7 +121,7 @@ span {
         width: 600px;
         height: 450px;
         display: flex;
-        margin: 175px 420px;
+        margin: 175px auto;
     }
 
     article img {
